@@ -1,0 +1,7 @@
+class Measure
+{
+    public float MeasureSpeed(float distance,float time)
+    {
+        return distance/time;
+    }
+}

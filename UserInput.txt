@@ -1,0 +1,15 @@
+import java.util.*;
+class UserInput
+{
+    public float[] distanceAndTime(int n)
+    {
+        Scanner in=new Scanner(System.in);
+        System.out.print("Enter user "+(n+1)+"Distance:");
+        float distance=in.nextFloat();
+        System.out.print("Enter user "+(n+1)+"Time :");
+        float time=in.nextFloat();
+        float enteredData[]={distance,time};
+        System.out.println("=====================================");
+        return enteredData;
+    }
+}

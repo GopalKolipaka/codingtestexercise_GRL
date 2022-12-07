@@ -1,0 +1,10 @@
+class DataSet 
+{
+    private float distance;
+    private float time;
+    public DataSet(float distance,float time)
+    {
+        this.distance=distance;
+        this.time=time;
+    }
+}
